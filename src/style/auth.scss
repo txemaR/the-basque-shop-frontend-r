@@ -1,0 +1,51 @@
+.auth-page-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: calc(100vh - 84px);
+
+    .left-column {
+        background-size: cover;
+    }
+
+    .right-column {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $offwhite;
+
+        .login-title {
+            color: $dark-teal;
+            font-size: 1.6em;
+        }
+
+        .log-option {
+            cursor: pointer;
+            color: $dark-teal;
+        }
+
+        .log-button {
+            @include base-btn;
+            height: 40px;
+            width: 120px;
+            border-radius: 4px;
+            font-size: 1.1em;
+            font-weight: 500;
+            // margin-left: 10px;
+        
+        }
+    }
+    
+    .right-column input {
+        width: 94%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid $softgrey;
+        border-radius: 5px;
+        outline: none;
+        font-size: 14px;
+        transition: border-color 0.2s;
+        &:focus {
+          border-color: $teal;
+        }
+    }
+}

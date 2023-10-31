@@ -1,0 +1,90 @@
+.payment-modal {
+  font-family: Arial, sans-serif;
+  background-color: $offwhite;
+  border-radius: 10px;
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  .modal-heading {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+
+  .name-address {
+    border-bottom: 1px solid $softgrey;
+    padding-bottom: 10px;
+  }
+
+  .card-data {
+    margin-top: 20px;
+  }
+
+  .modal-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .modal-input {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid $softgrey;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    transition: border-color 0.2s;
+
+    &:focus {
+      border-color: $teal;
+    }
+  }
+
+  .field-group {
+    display: flex;
+    justify-content: space-between;
+
+    .field {
+      flex: 1;
+      margin-right: 10px;
+    }
+  }
+
+  .modal-paragraph {
+    font-size: 1.2rem;
+    margin: 15px 0;
+  }
+
+  .total-amount {
+    border-top: 1px solid $softgrey;
+    margin-top: 15px;
+    padding-top: 10px;
+  }
+
+  button {
+    background-color: $teal;
+    color: $offwhite;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.2s;
+
+    &.close-modal-button {
+      background-color: $softgrey;
+
+      &:hover {
+        background-color: $grey;
+      }
+    }
+
+    &.pay-now-button:hover {
+      background-color: $dark-teal;
+    }
+  }
+}

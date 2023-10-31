@@ -1,0 +1,33 @@
+.btn {
+    @include base-btn();
+}
+
+.product-add-button {
+    @include base-btn();
+
+}
+
+.enter-btn {
+    @include base-btn();
+    width: 200px;
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    margin-top: 170px;
+}
+
+.right-icon {
+    font-size: 1.8em;
+}
+
+.modal-button {
+    @include base-btn();
+    border-radius: 5px;
+    padding: 0px 50px;
+    background-color: $grey;
+
+    &:hover {
+        background-color: $teal;
+    }
+}
