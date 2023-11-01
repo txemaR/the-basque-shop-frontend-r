@@ -137,7 +137,7 @@ export default class ShoppingContainer extends Component {
             onRequestClose={() => {
               this.setState({ showModal: false });
             }}
-            clearCart={this.clearCartItems} // Pasar la función para eliminar elementos del carrito
+            clearCart={this.clearCartItems}
             totalPrice={totalPrice}
           />
         )}

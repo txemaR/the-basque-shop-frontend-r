@@ -166,6 +166,7 @@ export default class PaymentModal extends Component {
               </label>
               <input
                 type="text"
+                placeholder="Your first name"
                 id="first-name"
                 value={firstName}
                 onChange={this.handleFirstNameChange}
@@ -179,6 +180,7 @@ export default class PaymentModal extends Component {
               </label>
               <input
                 type="text"
+                placeholder="Your last name"
                 id="last-name"
                 value={lastName}
                 onChange={this.handleLastNameChange}
@@ -194,6 +196,7 @@ export default class PaymentModal extends Component {
               </label>
               <input
                 type="text"
+                placeholder="Your address"
                 id="address"
                 value={address}
                 onChange={this.handleAddressChange}
@@ -209,6 +212,7 @@ export default class PaymentModal extends Component {
               </label>
               <input
                 type="text"
+                placeholder="Your city"
                 id="city"
                 value={city}
                 onChange={this.handleCityChange}
@@ -222,6 +226,7 @@ export default class PaymentModal extends Component {
               </label>
               <input
                 type="text"
+                placeholder="Your country"
                 id="country"
                 value={country}
                 onChange={this.handleCountryChange}
@@ -239,6 +244,7 @@ export default class PaymentModal extends Component {
               </label>
               <input
                 type="text"
+                placeholder="0000000000000000"
                 id="card-number"
                 value={cardNumber}
                 onChange={this.handleCardNumberChange}
@@ -255,6 +261,7 @@ export default class PaymentModal extends Component {
               </label>
               <input
                 type="text"
+                placeholder="mm/yy"
                 id="expiration-date"
                 value={expirationDate}
                 onChange={this.handleExpirationDateChange}
@@ -269,6 +276,7 @@ export default class PaymentModal extends Component {
               </label>
               <input
                 type="text"
+                placeholder="000"
                 id="cvv"
                 value={cvv}
                 onChange={this.handleCvvChange}

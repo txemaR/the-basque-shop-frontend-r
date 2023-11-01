@@ -1,7 +1,7 @@
 {
-  "name": "txema-rodriguez-react-portfolio",
+  "name": "the-basque-shop-frontend",
   "version": "1.0.0",
-  "description": "Personal portfolio app built in React",
+  "description": "Ecommerce project app built in React",
   "scripts": {
     "preinstall": "npm set audit false",
     "start": "webpack-dev-server --config webpack/dev.config.js --watch",
@@ -9,10 +9,6 @@
     "heroku-postbuild": "npm run build",
     "precommit": "eslint src",
     "prod": "NODE_ENV=production node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:bottega-code-school/js-builder.git"
   },
   "keywords": [
     "es6",
@@ -25,12 +21,9 @@
     "sass",
     "css module"
   ],
-  "author": "Txema Rodríguez",
+  "author": "Jose Maria Rodriguez",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bottega-code-school/js-builder/issues"
-  },
-  "homepage": "https://github.com/bottega-code-school/js-builder",
+  "homepage": "https://the-basque-shop-web-00f022bbc568.herokuapp.com/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
